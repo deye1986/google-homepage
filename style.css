@@ -22,9 +22,30 @@ input{
 }
 
 nav, a{
-    padding: 10px;
+  padding: 10px;
+}
+
+.mid-screen{
+    height: 200px;
 }
 
 .signin-btn-right{
-    justify-content: right;
+  justify-content: right;
+}
+
+.footer-bar{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footer-left{
+  justify-content: flex-start;
+  min-width: 30%;
+  order: 1;
+}
+
+.footer-text-left{
+  display: block;
+  padding: 15px;
 }
