@@ -1,5 +1,6 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
+    
 }
 
 .text{
@@ -33,6 +34,10 @@ nav, a{
   justify-content: right;
 }
 
+footer, a{
+    text-decoration: none;
+}
+
 .footer-bar{
   display: flex;
   flex-wrap: wrap;
@@ -48,4 +53,12 @@ nav, a{
 .footer-text-left{
   display: block;
   padding: 15px;
+}
+
+.footer-middle{
+    order: 2;
+}
+
+.footer-right{
+    order: 3;
 }
